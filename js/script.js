@@ -26,7 +26,7 @@ continue_btn.onclick = () => {
     quiz_box.classList.add("activeQuiz"); //show quiz box
     showQuetions(0); //calling showQestions function
     queCounter(1); //passing 1 parameter to queCounter
-    startTimer(15); //calling startTimer function
+    startTimer(60); //calling startTimer function
     startTimerLine(0); //calling startTimerLine function
 }
 
@@ -213,7 +213,7 @@ function queCounter(index) {
 
 class Main {
     static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        scanner = new Scanner(System.in);
 
         System.out.print("Enter the number of game players: ");
         int numOfPlayers = scanner.nextInt();
@@ -222,9 +222,9 @@ class Main {
 
         for (int i = 0; i < names.length; i++) {
             System.out.print("Enter a players name: ");
-            String name = scanner.next();
-            names[i] = name;
-            System.out.print("Enter " + name + "\'s score: ");
+            String names = scanner.next();
+            names[i] = names;
+            System.out.print("Enter " + names + "\'s score: ");
             while (scanner.hasNext()) {
                 if (scanner.hasNextDouble()) {
                     double score = scanner.nextDouble();
@@ -232,7 +232,7 @@ class Main {
                     break;
                 } else {
                     System.out.println("ERROR: Invalid Input");
-                    System.out.print("Enter " + name + "\'s score: ");
+                    System.out.print("Enter " + names + "\'s score: ");
                     scanner.next();
                 }
             }
