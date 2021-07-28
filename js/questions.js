@@ -1,58 +1,48 @@
 // creating an array and passing the number, questions, options, and answers
-let questions = [
+var question = [
   {
     numb: 1,
     question: "What does HTML stand for?",
-    answer: "Hyper Text Markup Language",
-    options: [
-      "Hyper Text Preprocessor",
-      "Hyper Text Markup Language",
-      "Hyper Text Multiple Language",
-      "Hyper Tool Multi Language"
-    ]
+    choiceA: "Hyper Text Preprocessor",
+    choiceB: "Hyper Text Markup Language",
+    choiceC: "Hyper Text Multiple Language",
+    choiceD: "Hyper Tool Multi Language",
+    correct: "B"
   },
   {
     numb: 2,
     question: "What does CSS stand for?",
-    answer: "Cascading Style Sheet",
-    options: [
-      "Common Style Sheet",
-      "Colorful Style Sheet",
-      "Computer Style Sheet",
-      "Cascading Style Sheet"
-    ]
+    choiceA: "Common Style Sheet",
+    choiceB: "Colorful Style Sheet",
+    choiceC: "Computer Style Sheet",
+    choiceD: "Cascading Style Sheet",
+    correct: "D"
   },
   {
     numb: 3,
     question: "What does PHP stand for?",
-    answer: "Hypertext Preprocessor",
-    options: [
-      "Hypertext Preprocessor",
-      "Hypertext Programming",
-      "Hypertext Preprogramming",
-      "Hometext Preprocessor"
-    ]
+    choiceA: "Hypertext Preprocessor",
+    choiceB: "Hypertext Programming",
+    choiceC: "Hypertext Preprogramming",
+    choiceD: "Hometext Preprocessor",
+    correct: "A"
   },
   {
     numb: 4,
     question: "What does SQL stand for?",
-    answer: "Structured Query Language",
-    options: [
-      "Stylish Question Language",
-      "Stylesheet Query Language",
-      "Statement Question Language",
-      "Structured Query Language"
-    ]
+    choiceA: "Stylish Question Language",
+    choiceB: "Stylesheet Query Language",
+    choiceC: "Statement Question Language",
+    choiceD: "Structured Query Language",
+    correct: "D"
   },
   {
     numb: 5,
     question: "What does XML stand for?",
-    answer: "eXtensible Markup Language",
-    options: [
-      "eXtensible Markup Language",
-      "eXecutable Multiple Language",
-      "eXTra Multi-Program Language",
-      "eXamine Multiple Language"
-    ]
+    choiceA: "eXtensible Markup Language",
+    choiceB: "eXecutable Multiple Language",
+    choiceC: "eXTra Multi-Program Language",
+    choiceD: "eXamine Multiple Language",
+    correct: "A"
   },
 ];
